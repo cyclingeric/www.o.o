@@ -18,14 +18,14 @@
 @import "bootstrap/code";
 @import "bootstrap/grid";
 // @import "bootstrap/tables";
-// @import "bootstrap/forms";
+@import "bootstrap/forms";
 @import "bootstrap/buttons";
 
 // Components
 // @import "bootstrap/component-animations";
 // @import "bootstrap/dropdowns";
 // @import "bootstrap/button-groups";
-// @import "bootstrap/input-groups";
+@import "bootstrap/input-groups";
 @import "bootstrap/navs";
 // @import "bootstrap/navbar";
 // @import "bootstrap/breadcrumbs";
@@ -37,18 +37,18 @@
 // @import "bootstrap/thumbnails";
 // @import "bootstrap/alerts";
 // @import "bootstrap/progress-bars";
-// @import "bootstrap/media";
+@import "bootstrap/media";
 // @import "bootstrap/list-group";
-// @import "bootstrap/panels";
+@import "bootstrap/panels";
 // @import "bootstrap/responsive-embed";
-// @import "bootstrap/wells";
+@import "bootstrap/wells";
 // @import "bootstrap/close";
 
 // Components w/ JavaScript
-// @import "bootstrap/modals";
+@import "bootstrap/modals";
 // @import "bootstrap/tooltip";
 // @import "bootstrap/popovers";
-// @import "bootstrap/carousel";
+@import "bootstrap/carousel";
 
 // Utility classes
 @import "bootstrap/utilities";
@@ -60,27 +60,122 @@
   background-size: cover;
   box-sizing: border-box;
   color: #e5e5e5;
-  height: 760px;
   padding-top: 200px;
   background-image: url("/img/background.jpg");
   overflow: hidden;
   display: block;
   width: 100%;
+  #callout {
+    border-left: 5px solid white;
+    color: #eee;
+    text-shadow: -1px 0 #aaa, 0 1px #aaa, 1px 0 #aaa, 0 -1px #aaa;
+  }
+  #social {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+    padding: 31px 0 30px;
+  }
 }
 
 #blog {
-  background-color: #222;
+  background-color: #fff;
   padding: 10px 0 20px 0;
 
   h2 {
-    color: #690;
+    color: #bbb;
+  }
+  .well {
+    background-color: #428bca;
+    color: #eee;
   }
 }
 
 #discover {
-  margin-top: 60px;
+  background-color: #f8f8f8;
+  padding: 60px 60px;
+  .section-headline {
+    margin-bottom: 60px;
+  }
+}
+
+#apps {
+  padding-top: 20px;
+  h1 {
+    margin-bottom: 30px;
+  }
+}
+
+#praise {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  .well {
+    background-color: #690;
+  }
+}
+
+#help {
+  background-color: #111100;
+  color: #eee;
+  .quote {
+    font-size: 3em;
+  }
+  .quote:after{
+    font-size: 2em;
+    content: '?';
+    color: #690;
+  }
+}
+
+#community-header {
+  padding: 60px 30px;
+  background-color: #003e4d;
+  h1 {
+    font-size: 5em;
+  }
+}
+
+#community-picture {
+  background-image: url("/img/community.jpg");
+  background-size: cover;
+  overflow: hidden;
+  height: 500px;
+}
+
+#community-text {
+  background-color: #003e4d;
+  color: #eee;
+  padding-top: 60px;
+}
+
+#contribute {
+  background-color: #003e4d;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  img {
+    margin: 0 auto;
+  }
 }
 
 #footer {
-  margin-top: 60px;
+  padding-top: 30px;
+  background-image: url("/img/clouds.jpg");
+  background-size: cover;
+  overflow: hidden;
+  height: 300px;
+  color: #eee;
+  font-size: 1.5em;
+}
+
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.osgreen {
+  color: #690
+}
+
+.img-center {
+  margin: 0 auto;
 }
