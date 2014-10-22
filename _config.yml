@@ -1,4 +1,3 @@
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog/
-gems: [bootstrap-sass]
 exclude: [Gemfile, Gemfile.lock, README.md, mockups]
