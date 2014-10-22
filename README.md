@@ -5,11 +5,6 @@ These are the sources of the **new** and **shiny** openSUSE landing page.
 This page is using a static site generator called [jekyll](http://jekyllrb.com). Here is how to get your development environment set up:
 
 * Install Jekyll using the awesome [installation guide](http://jekyllrb.com/docs/installation/).
-* Install the dependencies
-```shell
- gem install bundler
- bundle install
-```
 * Start the development server
 ```shell
  jekyll serve -w
