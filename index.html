@@ -16,48 +16,40 @@ layout: default
         <a class="btn btn-lg btn-block btn-success" href="#download">
           <h1>Download</h1>
         </a>
-        <p class="pull-right">4GB DVD Image, 64-Bit. <a href="http://software.opensuse.org">Need something else?</a></p>
-      </div>
-    </div>
-  </div>
-  <div id="social">
-    <div class="row">
-      <div class="col-md-4 col-md-offset-2">
-        <p class="h3">#openSUSE</p>
-      </div>
-      <div class="col-md-4 col-md-offset-1">
-        <div class="well">
-          <a class="twitter-timeline"  href="https://twitter.com/openSUSE/favorites" data-widget-id="524960930669420544" data-chrome="noheader nofooter noborders noscrollbar transparent" data-tweet-limit="1">Favorite Tweets by @openSUSE</a>
-        </div>
+        <p class="pull-right"><small>4GB DVD Image, 64-Bit. <a href="http://software.opensuse.org">Need something else?</a></small></p>
       </div>
     </div>
   </div>
 </div>
+
 <div id="blog">
   <div class="container-fluid">
     <div class="row vertical-align">
-      <div class="col-md-4 col-md-offset-1 text-center">
-        <h2>NEW RELEASE<br>COMING SOON</h2>
-        <p class="h2 osgreen">openSUSE 13.2</p>
+      <div class="col-md-4 col-md-offset-1 col-xs-6">
+        <div class="text-center">
+          <p class="title"><strong>NEW RELEASE<br>COMING SOON</strong></p>
+          <p class="content">openSUSE 13.2</p>
+        </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-6">
         <div class="well text-center">
-          <h1>17 Days to go!</h1>
+          <p class="callout">17 Days to go!</p>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 <div id="discover">
   <div class="container-fluid">
     <div class="row section-headline">
       <div class="col-md-5 col-md-offset-7">
-        <h1 class="osgreen">DISCOVER OPENSUSE</span></h1>
+        <h1>DISCOVER OPENSUSE</h1>
       </div>
     </div>
     <div class="row">
       <div class="col-md-7">
-        <img src="img/screenshot-left.png" class="img-responsive" style="position: relative; left: -80px;">
+        <img src="img/screenshot-left.png" class="img-thumbnail img-responsive">
       </div>
       <div class="col-md-5">
         <p class="lead">
@@ -65,17 +57,18 @@ layout: default
           ultra geeks alike. Includes everything you need to work hard, and play even harder! Perfect
           for enyoing the internet, worry free of viruses and spyware. Made to support your creativity,
           be it with your photos, videos, music or code. Reliable as server and awesome to tinker with.
-          <span class="osgreen">Try it!</span>
+          Try it!
         </p>
       </div>
     </div>
   </div>
 </div>
-<div id="apps">
+
+<div id="apps" class="hidden-xs">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h1>All the apps you will ever need!</h1>
+        <h1>All the apps you'll ever need!</h1>
       </div>
     </div>
     <div class="row">
@@ -118,37 +111,84 @@ layout: default
     </div>
   </div>
 </div>
+
 <div id="praise">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="well">
-          <div class="media">
-            <a class="pull-left" href="#">
-              <img class="media-object img-circle" src="//www.nicenicejpg.com/150/150" alt="...">
-            </a>
-            <div class="media-body">
-              <h2 class="media-heading">Server Power!</h2>
-                <p class="lead">
-                  Sed rutrum vitae augue ac viverra. Aliquam erat volutpat. Praesent pretium tempus ipsum at egestas. Nulla justo nisl, congue in scelerisque at, fringilla vitae orci.
-                </p>
+    <div class='row'>
+      <div class='col-md-offset-2 col-md-8'>
+        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+          <!-- Bottom Carousel Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#quote-carousel" data-slide-to="1"></li>
+            <li data-target="#quote-carousel" data-slide-to="2"></li>
+          </ol>
+          
+          <!-- Carousel Slides / Quotes -->
+          <div class="carousel-inner">
+          
+            <!-- Quote 1 -->
+              <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </div>
+              </div>
+            </blockquote>
+            </div>
+            <!-- Quote 2 -->
+              <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+                  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </div>
+              </div>
+            </blockquote>
+            </div>
+            <!-- Quote 3 -->
+              <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit.</p>
+                  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </div>
+              </div>
+            </blockquote>
             </div>
           </div>
-        </div>
+          <!-- Carousel Buttons Next/Prev -->
+          <a data-slide="prev" href="#quote-carousel" class="carousel-control left"><span class="glyphicon glyphicon-chevron-left"></span></a>
+          <a data-slide="next" href="#quote-carousel" class="carousel-control right"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>                          
       </div>
     </div>
   </div>
 </div>
+
 <div id="help">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-11 col-md-offset-1">
-        <p class="quote">But will <span class="rotate">it work with my printer, I be able to use Facebook, it install on this laptop, anyone be there if I need help</span></p>
+        <p class="question">But will <span class="rotate">it work with my printer?, I be able to use Facebook?, it install on this laptop?, anyone be there if I need help?</span></p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-5 col-md-offset-7">
-        <p class="lead">Don't worry, <a href="https://en.opensuse.org/Portal:Support">we help each other out!</a></p>
+        <p class="lead">Don't worry, here at openSUSE <a href="https://en.opensuse.org/Portal:Support">we help each other out!</a></p>
       </div>
     </div>
   </div>
@@ -158,7 +198,7 @@ layout: default
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 text-center">
-          <h1 class="osgreen">The openSUSE Community</h1>
+          <h1>The openSUSE Community</h1>
       </div>
     </div>
   </div>
@@ -170,25 +210,25 @@ layout: default
     <div class="row">
       <div class="col-md-10 col-md-offset-1 text-center">
         <p class="lead">
-          We are a community that provides free and easy access to computer software.
-          We innovate, integrate, polish, document, maintain and support one of the world's best Linux based operating systems
-          We are working together in an open, transparent and friendly manner as part of the worldwide Free and Open Source Software community.
+          We are a community that provides free and easy access to one of the world's best Linux based operating systems.
+          We are working together as part of the worldwide Free and Open Source Software community.
         </p>
       </div>
     </div>
   </div>
 </div>
+
 <div id="contribute">
   <div class="container-fluid">
     <div class="row">
-        <div class="col-xs-6 col-md-4">
-          <img src="holder.js/200x200/#690:#ddd/text:Write" class="img-responsive img-circle">
+        <div class="col-xs-4 col-md-4">
+          <img src="holder.js/200x200/#690:#ddd/text:Write" class="img-responsive">
         </div>
-        <div class="col-xs-6 col-md-4">
-          <img src="holder.js/200x200/#690:#ddd/text:Hack" class="img-responsive img-circle">
+        <div class="col-xs-4 col-md-4">
+          <img src="holder.js/200x200/#690:#ddd/text:Hack" class="img-responsive">
         </div>
-        <div class="col-xs-6 col-md-4">
-          <img src="holder.js/200x200/#690:#ddd/text:Design" class="img-responsive img-circle">
+        <div class="col-xs-4 col-md-4">
+          <img src="holder.js/200x200/#690:#ddd/text:Design" class="img-responsive">
         </div>
     </div>
   </div>

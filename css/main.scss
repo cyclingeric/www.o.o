@@ -10,7 +10,7 @@
 // Reset and dependencies
 @import "bootstrap/normalize";
 @import "bootstrap/print";
-// @import "bootstrap/glyphicons"; // Using FontAwesome instead
+@import "bootstrap/glyphicons"; // Using FontAwesome instead
 
 // Core CSS
 @import "bootstrap/scaffolding";
@@ -22,11 +22,11 @@
 @import "bootstrap/buttons";
 
 // Components
-// @import "bootstrap/component-animations";
+@import "bootstrap/component-animations";
 // @import "bootstrap/dropdowns";
 // @import "bootstrap/button-groups";
 @import "bootstrap/input-groups";
-@import "bootstrap/navs";
+// @import "bootstrap/navs";
 // @import "bootstrap/navbar";
 // @import "bootstrap/breadcrumbs";
 // @import "bootstrap/pagination";
@@ -37,7 +37,7 @@
 // @import "bootstrap/thumbnails";
 // @import "bootstrap/alerts";
 // @import "bootstrap/progress-bars";
-@import "bootstrap/media";
+// @import "bootstrap/media";
 // @import "bootstrap/list-group";
 @import "bootstrap/panels";
 // @import "bootstrap/responsive-embed";
@@ -55,46 +55,69 @@
 @import "bootstrap/responsive-utilities";
 
 #hero {
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-sizing: border-box;
-  color: #e5e5e5;
-  padding-top: 200px;
-  background-image: url("../img/background.jpg");
-  overflow: hidden;
-  display: block;
-  width: 100%;
+  // background-position: center top;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // box-sizing: border-box;
+  // color: #e5e5e5;
+  padding-top: 100px;
+  // background-image: url("../img/background.jpg");
+  // overflow: hidden;
+  // display: block;
+  // width: 100%;
   #callout {
     border-left: 5px solid white;
-    color: #eee;
+    color: $gray-lighter;
     text-shadow: -1px 0 #aaa, 0 1px #aaa, 1px 0 #aaa, 0 -1px #aaa;
+    @media (max-width: $screen-xs-min) {
+      border-left: 0px;
+    }
   }
   #social {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
     margin-top: 60px;
     padding: 31px 0 30px;
   }
+  @media (max-width: $screen-xs-min) {
+    padding-top: 60px;
+  }
 }
 
 #blog {
   background-color: #fff;
-  padding: 10px 0 20px 0;
+  padding-top: 10px;
 
-  h2 {
-    color: #bbb;
+  .title {
+    color: $gray-light;
+  }
+  .content {
+    color: $brand-success;
   }
   .well {
-    background-color: #428bca;
-    color: #eee;
+    background-color: $brand-primary;
+    color: $gray-lighter;
+    .callout {
+      color: $gray-lighter;
+      font-size: 24px;
+    }
   }
 }
 
 #discover {
-  background-color: #f8f8f8;
-  padding: 60px 60px;
-  .section-headline {
-    margin-bottom: 60px;
+  background-color: $gray-lighter;
+  img {
+    position: relative; left: -100px;
+    margin-bottom: 10px;
+    @media (max-width: $screen-xs-min) {
+      position: relative; left: 0px;
+    }
+  }
+  h1 {
+    text-align: center;
+    color: $brand-success;
+    @media (max-width: $screen-xs-min) {
+      font-size: 24px;
+    }
   }
 }
 
@@ -106,31 +129,69 @@
 }
 
 #praise {
-  padding-top: 80px;
-  padding-bottom: 60px;
-  .well {
-    background-color: #690;
+  /* carousel */
+  #quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    .carousel-control {
+      background: none;
+      color: #222;
+      font-size: 2.3em;
+      text-shadow: none;
+      margin-top: 30px;
+    }
+    .carousel-control.left {
+      left: -25px;
+    }
+    .carousel-control.right {
+      right: -15px !important;
+    }
+    .carousel-indicators {
+      right: 50%;
+      top: auto;
+      bottom: 0px;
+      margin-right: -19px;
+      li {
+        background: #c0c0c0;
+      }
+      .active {
+        background: #333333;
+      }
+    }
+    img {
+      width: 250px;
+      height: 100px
+    }
+    .item blockquote {
+      border-left: none; 
+      margin: 0;
+    }
+    .item blockquote img {
+      margin-bottom: 10px;
+    }
+    .item blockquote p:before {
+      content: "\f10d";
+      font-family: 'Fontawesome';
+      float: left;
+      margin-right: 10px;
+    }
   }
 }
 
 #help {
-  background-color: #111100;
-  color: #eee;
-  .quote {
-    font-size: 3em;
-  }
-  .quote:after{
+  background-color: $gray-darker;
+  padding: 20px 0;
+  color: $gray-lighter;
+  .question {
     font-size: 2em;
-    content: '?';
-    color: #690;
   }
 }
 
 #community-header {
-  padding: 60px 30px;
+  padding: 20px 0;
   background-color: #003e4d;
   h1 {
-    font-size: 5em;
+    color: $brand-success;
   }
 }
 
@@ -138,31 +199,30 @@
   background-image: url("../img/community.jpg");
   background-size: cover;
   overflow: hidden;
-  height: 500px;
+  height: 200px;
 }
 
 #community-text {
+  padding: 20px 0;
   background-color: #003e4d;
-  color: #eee;
-  padding-top: 60px;
+  color: $gray-lighter;
 }
 
 #contribute {
   background-color: #003e4d;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding: 20px 0;
   img {
     margin: 0 auto;
   }
 }
 
 #footer {
-  padding-top: 30px;
+  padding: 20px 0;
   background-image: url("../img/clouds.jpg");
   background-size: cover;
   overflow: hidden;
   height: 300px;
-  color: #eee;
+  color: $gray-lighter;
   font-size: 1.5em;
 }
 
@@ -170,10 +230,6 @@
 .vertical-align {
     display: flex;
     align-items: center;
-}
-
-.osgreen {
-  color: #690
 }
 
 .img-center {
