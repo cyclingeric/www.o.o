@@ -1,5 +1,8 @@
 ---
 ---
+$font-family-sans-serif: 'Asap-Regular';
+$headings-font-family: 'Lobster';
+
 //
 // Bootstrap components
 //
@@ -60,76 +63,72 @@
   // background-size: cover;
   // box-sizing: border-box;
   // color: #e5e5e5;
-  padding-top: 100px;
+  height: 600px;
+  background-color: $brand-success;
   // background-image: url("../img/background.jpg");
   // overflow: hidden;
   // display: block;
   // width: 100%;
-  #callout {
-    border-left: 5px solid white;
-    color: $gray-lighter;
-    text-shadow: -1px 0 #aaa, 0 1px #aaa, 1px 0 #aaa, 0 -1px #aaa;
-    @media (max-width: $screen-xs-min) {
-      border-left: 0px;
+  #stripe {
+    background-color: rgba(148,190,66,.65);
+    height: 600px;
+    #logo {
+      padding-top: 30px;
     }
-  }
-  #social {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
-    margin-top: 60px;
-    padding: 31px 0 30px;
-  }
-  @media (max-width: $screen-xs-min) {
-    padding-top: 60px;
-  }
-}
-
-#blog {
-  background-color: #fff;
-  padding-top: 10px;
-
-  .title {
-    color: $gray-light;
-  }
-  .content {
-    color: $brand-success;
-  }
-  .well {
-    background-color: $brand-primary;
-    color: $gray-lighter;
-    .callout {
+    #callout {
+      padding-top: 10px;
       color: $gray-lighter;
-      font-size: 24px;
+      p {
+        font-size: 2em;
+      }
+    }
+    #dlbtn {
+      padding-top: 200px;
+      a {
+        background-color: #17484c;
+        border-color: transparent;
+        font-size: 3em;
+      }
     }
   }
 }
 
 #discover {
   background-color: $gray-lighter;
-  img {
-    position: relative; left: -100px;
-    margin-bottom: 10px;
-    @media (max-width: $screen-xs-min) {
-      position: relative; left: 0px;
-    }
-  }
+  background-image: url("../img/ricepaper.png");
+  background-repeat: repeat;
   h1 {
     text-align: center;
     color: $brand-success;
+    padding: 60px 0;
+    font-size: 5em;
     @media (max-width: $screen-xs-min) {
       font-size: 24px;
     }
   }
-}
-
-#apps {
-  padding-top: 20px;
-  h1 {
-    margin-bottom: 30px;
+  #screenshot {
+    position: relative; right: -100px;
+    @media (max-width: $screen-xs-min) {
+      position: relative; left: 0px;
+    }
+  }
+  #icons {
+    padding-top: 60px; 
   }
 }
 
 #praise {
   /* carousel */
+  background-color: $gray-lighter;
+  background-image: url("../img/ricepaper.png");
+  background-repeat: repeat;
+  #geeko {
+    background-image: url("../img/geeko-head.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative; left: -20px;
+  }
   #quote-carousel {
     padding: 0 10px 30px 10px;
     margin-top: 30px;
@@ -178,54 +177,39 @@
   }
 }
 
-#help {
-  background-color: $gray-darker;
+#community {
   padding: 20px 0;
+  background-color: #45454a;
+  background-image: url("../img/ricepaper.trans.png");
+  background-repeat: repeat;
   color: $gray-lighter;
-  .question {
-    font-size: 2em;
-  }
-}
-
-#community-header {
-  padding: 20px 0;
-  background-color: #003e4d;
   h1 {
     color: $brand-success;
+    padding: 60px 0;
+    font-size: 5em;
   }
-}
-
-#community-picture {
-  background-image: url("../img/community.jpg");
-  background-size: cover;
-  overflow: hidden;
-  height: 200px;
-}
-
-#community-text {
-  padding: 20px 0;
-  background-color: #003e4d;
-  color: $gray-lighter;
-}
-
-#contribute {
-  background-color: #003e4d;
-  padding: 20px 0;
-  img {
-    margin: 0 auto;
+  #community-picture {
+    height: 500px;
+    width: 500px;
+  }
+  .btn-block {
+    font-size: 3em;
   }
 }
 
 #footer {
-  padding: 20px 0;
-  background-image: url("../img/clouds.jpg");
+  padding: 20px 0 80px 0;
+  background-image: url("../img/footer.jpg");
   background-size: cover;
   overflow: hidden;
-  height: 300px;
   color: $gray-lighter;
-  font-size: 1.5em;
+  a {
+    color: $gray-lighter;
+  }
+  .img-thumbnail {
+    margin-top: 10px;
+  }
 }
-
 
 .vertical-align {
     display: flex;

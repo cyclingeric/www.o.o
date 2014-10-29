@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-29 15:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#: index.html+div.div.div.div.div.div.div.p:18
+msgid "Free, Flexible, Linux Based Operating System"
+msgstr "Freies, Flexibles, auf Linux basierendes Betriebsystem"
+
+#: index.html+div.div.div.div.div.div.div:24
+msgid "Download"
+msgstr "Download"
+
+#: index.html+div.div.div.div.h1:40
+msgid "Discover openSUSE"
+msgstr "Entdecke openSUSE"
+
+#: index.html+div.div.div.div.p:45
+msgid ""
+"A free, flexible, Linux based operating system. Great for beginners, "
+"experienced users and ultra geeks alike. Includes everything you need to "
+"work hard, and play even harder! Perfect for enyoing the internet, worry "
+"free of viruses and spyware. Made to support your creativity, be it with "
+"your photos, videos, music or code. Reliable as server and awesome to tinker "
+"with. Try it!"
+msgstr ""
+"Ein freies, flexibles, auf Linux basierendes Betriebsystem. Gut für Anfänger, "
+"Fortgeschrittene und Geeks genauso. Beinhaltet alles was man zum"
+"Arbeiten und Spielen braucht! Perfekt um das Internet zu erkunden,"
+"ohne sich Sorgen um Viruse und Spyware zu machen. Gemacht um deine Kreativität zu unterstützen, sei es mit "
+"your photos, videos, music or code. Reliable as server and awesome to tinker "
+"deinen Fotos, Videos, deiner Musik oder deinem Code. Verlässlich als Server und großartig zum frickeln "
+
+#: index.html+div.div.div.div.h2:79
+msgid "All the apps you need and more!"
+msgstr "Alle Apps die du brauchst, und mehr!"
+
+#: index.html+div.div.div.div.div.div.div.blockquote.div.div.p:109
+msgid ""
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, "
+"adipisci velit!"
+msgstr ""
+"In der ungarischen Hauptstadt Budapest haben erneut mehr als zehntausend Menschen gegen die geplante Internet-Steuer demonstriert."
+
+#: index.html+div.div.div.div.div.div.div.blockquote.div.div.p:122
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec "
+"lacus ut tempor. Mauris."
+msgstr "Den Plänen zufolge soll sie umgerechnet 49 Eurocent pro Gigabyte betragen."
+
+#: index.html+div.div.div.div.div.div.div.blockquote.div.div.p:135
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in "
+"arcu blandit."
+msgstr "Die Menge der Demonstranten füllte am Dienstagabend die sechsspurige Elisabeth-Brücke über die Donau und die Kossuth-Straße auf der Pester Seite. "
+
+#: index.html+div.div.div.div.h1:155
+msgid "The openSUSE Community"
+msgstr "Die openSUSE Community"
+
+#: index.html+div.div.div.div.p:165
+msgid ""
+"We are a community that provides free and easy access to one of the world's "
+"best Linux based operating systems. We are working together as part of the "
+"worldwide Free and Open Source Software community."
+msgstr ""
+"Wir sind eine Gemeinschaft, die freien und einfachen Zugang zu einer der weltbesten"
+"Linux-Distributionen ermöglicht. Wir arbeiten als Teil der weltweiten Gemeinschaft "
+"rund um freie und quelloffene Software zusammen."
+
+#: index.html+div.div.div.div:172
+msgid "Join the community!"
+msgstr "Teilnehmen!"
+
+#: index.html+div.div.div.div.h2:185
+msgid "Sponsors"
+msgstr "Sponsoren"
+
+#: index.html+div.div.div.div.h2:204
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: index.html+div.div.div.div.div.div.ul.li:208
+msgid "News"
+msgstr "News"
+
+#: index.html+div.div.div.div.div.div.ul.li:209
+msgid "Wiki"
+msgstr "Wiki"
+
+#: index.html+div.div.div.div.div.div.ul.li:210
+msgid "Forum"
+msgstr "Forum"
+
+#: index.html+div.div.div.div.div.div.ul.li:211
+msgid "Mailing Lists"
+msgstr "Mailinglisten"
+
+#: index.html+div.div.div.div.div.div.ul.li:212
+msgid "IRC"
+msgstr "IRC"
+
+#: index.html+div.div.div.div.div.div.ul.li:217
+msgid "Blogs"
+msgstr "Blogs"
+
+#: index.html+div.div.div.div.div.div.ul.li:218
+msgid "Shop"
+msgstr "Shop"
+
+#: index.html+div.div.div.div.div.div.ul.li:219
+msgid "Docu"
+msgstr "Doku"
+
+#: index.html+div.div.div.div.div.div.ul.li:220
+msgid "Bugs"
+msgstr "Bugs"
+
+#: index.html+div.div.div.div.div:227
+msgid ""
+"<input type=\"text\" class=\"form-control\"> <span class=\"input-group-btn\"> "
+"<button class=\"btn btn-default\" type=\"button\">Search</button> </span>"
+msgstr ""
+"<input type=\"text\" class=\"form-control\"> <span class=\"input-group-btn\"> "
+"<button class=\"btn btn-default\" type=\"button\">Suche</button> </span>"

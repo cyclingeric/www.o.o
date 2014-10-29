@@ -12,7 +12,7 @@
 
     <!-- Core CSS -->
     <link href="css/main.css" rel="stylesheet">
-
+    <link href="css/fonts.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -24,16 +24,14 @@
     {{ content }}
     
     <!-- As JavaScript library: jQuery -->
-    <script src="//oss.maxcdn.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- For bootstrap JavaScript (self compiled, only the stuff we need) -->
     <script src="js/bootstrap.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
-    <!-- For placeholder images -->
-    <script src="//oss.maxcdn.com/holder/2.4.0/holder.js"></script>
     <!-- For rotating text -->
     <script src="js/jquery.simple-text-rotator.min.js"></script>
     <!-- For image backdrops -->
-    <script src="//oss.maxcdn.com/jquery.backstretch/2.0.3/jquery.backstretch.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
     
     <script>
       //<![CDATA[
@@ -44,11 +42,16 @@
           });
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
         });
-         $("#hero").backstretch([
-          "img/hero1.jpg",
-          "img/hero2.jpg",
-          "img/hero3.jpg"
-          ], {duration: 15000, fade: 1750});
+        $("#hero").backstretch([
+          "img/desk.jpg",
+          "img/geek.jpg",
+          // "img/outside.jpg",
+          "img/outside2.jpg",
+          "img/starbucks.jpg"
+          ], {duration: 5000, fade: 1750});
+        $("#community-picture").backstretch([
+          "img/community.png"
+          ], {duration: 5000, fade: 1750});
       //]]>
       </script>
   </body>
