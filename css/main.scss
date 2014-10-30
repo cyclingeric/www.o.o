@@ -197,6 +197,18 @@ $headings-font-family: 'Lobster';
   .btn-group {
     position: relative; top: -100px;
   }
+  .btn:focus {
+    outline-style: none;
+    outline-offset: 0;
+  }
+  .btn:active:focus {
+    outline-style: none;
+    outline-offset: 0;
+  }
+  .btn.active:focus {
+    outline-style: none;
+    outline-offset: 0;
+  }
 }
 
 #footer {
