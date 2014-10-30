@@ -142,7 +142,7 @@ layout: default
           <!-- Carousel Buttons Next/Prev -->
           <a data-slide="prev" href="#quote-carousel" class="carousel-control left"><span class="glyphicon glyphicon-chevron-left"></span></a>
           <a data-slide="next" href="#quote-carousel" class="carousel-control right"><span class="glyphicon glyphicon-chevron-right"></span></a>
-        </div>                          
+        </div>
       </div>
     </div>
   </div>
@@ -155,20 +155,71 @@ layout: default
           <h1>The openSUSE Community</h1>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-5">
-        <img src="img/community.png" class="img-responsive img-circle img-center">
-      </div>
-      <div class="col-md-5 col-md-offset-1">
-        <p class="lead">
-          We are a community that provides free and easy access to Free and Open Source Software.
-          We innovate, integrate, polish, document, distribute, maintain and support one of the world's best Linux distributions.
-          We are working together in an open, transparent and friendly manner as part of the
-          worldwide Free and Open Source community. 
-        </p>
-        <a class="btn btn-lg btn-block btn-primary" href="#community">
-          Join the community!
-        </a>
+    <div class="carousel slide" data-ride="carousel" data-interval="" id="contrib-carousel">
+      <div class="row">
+        <div class="col-md-5 text-center">
+          <button type="button" class="btn btn-lg btn-link" data-target="#contrib-carousel" data-slide-to="0">
+            <img src="img/community.png" class="img-responsive img-circle img-center" id="community-picture">
+          </button>
+          <div class="btn-group">
+            <button type="button" class="btn btn-lg btn-link" data-target="#contrib-carousel" data-slide-to="1">
+              <img src="img/write.png">
+            </button>
+            <button type="button" class="btn btn-lg btn-link" data-target="#contrib-carousel" data-slide-to="2">
+              <img src="img/hack.png">
+            </button>
+            <button type="button" class="btn btn-lg btn-link" data-target="#contrib-carousel" data-slide-to="3">
+                <img src="img/design.png">
+            </button>
+          </div>
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+          <!-- Carousel Slides / Quotes -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <p class="lead">
+                We are a community that provides free and easy access to Free and Open Source Software.
+                We innovate, integrate, polish, document, distribute, maintain and support one of the world's best Linux distributions.
+                We are working together in an open, transparent and friendly manner as part of the
+                worldwide Free and Open Source community. 
+              </p>
+              <a class="btn btn-lg btn-block btn-primary" href="#community">Join us!</a>
+            </div>
+            <div class="item">
+              <h2>We Write</h2>
+              <p class="lead">
+                Open source and openSUSE is not just about developers; it's
+                about contributing to a cause that benefits everyone. Be apart of that
+                cause. Words to describe programs and translations to make these
+                programs known throughout the world are needed. Help us fulfill that need.
+              </p>
+            </div>
+            <div class="item">
+              <h2>We Hack</h2>
+              <p class="lead">
+                To produce and develop open-source tools, software, programs and
+                applications, openSUSE counts on developers with different levels of
+                expertise and understanding. Each individual brings a unique set of
+                contributions to the openSUSE community; we value these differences and
+                commend their contributions. openSUSE is not just about furthering the
+                open-source cause, but about improving the collective knowledge, skills
+                and understanding of community members. Contribute to openSUSE's
+                knowledge-based development and "hack with us."
+              </p>
+            </div>
+            <div class="item">
+              <h2>We Design</h2>
+              <p class="lead">
+                There is nothing more gratifying than designing something
+                great; we understand this and live by this mantra. Professional-looking,
+                fun and functional designs are essential for open-source and openSUSE
+                elements to become mainstream. openSUSE welcomes contributions from
+                people who take pleasure in applied arts and seek their contributions
+                and to openSUSE projects. Your audience awaits you.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
