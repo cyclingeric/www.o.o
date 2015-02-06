@@ -19,3 +19,5 @@ This page is using a static site generator called [jekyll](http://jekyllrb.com).
 Did you find that something is wrong and want us to fix it? Tell us in our [issue tracker](https://github.com/openSUSE/www.o.o/issues). Don't know how to do that? Check out the [Github Guide on mastering issues](https://guides.github.com/features/issues/)!
 
 Do you have a patch for our code? Just fork this repository and send a pull request! Of course Github als has a guide on [how you can contribute with Forking](https://guides.github.com/activities/forking/).
+
+Do you have other feedback? Swing by our [mailing list](mailto:opensuse-web@opensuse.org) and/or our [trello board](https://trello.com/b/1gb3O03N/landing-page) to discuss with us.
